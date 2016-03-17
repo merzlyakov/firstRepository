@@ -1,4 +1,3 @@
-# firstRepository
-homeWork
+<?php
 
-test first line;
+?>
