@@ -14,12 +14,16 @@
 }
 
 .new-container {
-    white-space: nowrap;
+
     height: 40px;
     background: #aaf0d1;
     padding: 5px;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.new-container-full {
+    background: #aaf0d1;
+    padding: 5px;
 }
 
 

@@ -24,3 +24,18 @@ function getResultQuery($res) {
     }
     return $result;
 }
+
+function getQuery($sql) {
+    connectSQL();
+    $res = query($sql);
+    $result = getResultQuery($res);
+    closeSQL();
+    return $result;
+}
+
+function putQuery($sql) {
+    connectSQL();
+    $result = query($sql);
+    closeSQL();
+    return $result;
+}

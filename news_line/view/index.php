@@ -11,7 +11,7 @@
     <?php foreach($listNews as $new): ?>
         <article class='new'>
             <header class='new-header'>
-                <a class='new-title' href=""><?php echo $new['title']; ?></a>
+                <a class='new-title' href="fullNews.php?id=<?php echo $new['id']; ?>"><?php echo $new['title']; ?></a>
             </header>
             <div class='new-container'>
                 <?php echo $new['new']; ?>
