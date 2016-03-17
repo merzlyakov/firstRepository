@@ -1,0 +1,30 @@
+.new {
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.new-header {
+    background: #eceabe;
+    padding: 5px;
+}
+
+.new-footer {
+    background: #eceabe;
+    padding: 5px;
+}
+
+.new-container {
+
+    height: 40px;
+    background: #aaf0d1;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.new-container-full {
+    background: #aaf0d1;
+    padding: 5px;
+}
+
+
+
