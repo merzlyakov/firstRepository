@@ -1,7 +1,5 @@
 <?php
 
-require_once __DIR__ . '/article.php';
-
 class Database {
 
     public function getListNews() {
@@ -41,7 +39,7 @@ class Database {
     private function getResultQuery($res) {
         $result = [];
         while($r = mysql_fetch_assoc($res)) {
-            $result[] = new News($r);
+            $result[] = $r;
         }
         return $result;
     }

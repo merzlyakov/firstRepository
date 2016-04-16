@@ -11,13 +11,13 @@
     <?php foreach($listNews as $new): ?>
         <article class='new'>
             <header class='new-header'>
-                <a class='new-title' href="fullNews.php?id=<?php echo $new->id; ?>"><?php echo $new->title; ?></a>
+                <a class='new-title' href="fullNews.php?id=<?php echo $new['id']; ?>"><?php echo $new['title']; ?></a>
             </header>
             <div class='new-container'>
-                <?php echo $new->new; ?>
+                <?php echo $new['new']; ?>
             </div>
             <footer class='new-footer'>
-                <span class='new-date'><?php echo $new->date; ?></span>
+                <span class='new-date'><?php echo $new['date']; ?></span>
             </footer>
         </article>
     <?php endforeach; ?>
