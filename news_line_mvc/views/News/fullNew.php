@@ -12,13 +12,13 @@
 
     <article class='new'>
         <header class='new-header'>
-            <span class='new-title' href="#"><?php echo $fullNew->title; ?></span>
+            <span class='new-title' href="#"><?php echo $item->title; ?></span>
         </header>
         <div class='new-container-full'>
-            <?php echo $fullNew->new; ?>
+            <?php echo $item->new; ?>
         </div>
         <footer class='new-footer'>
-            <span class='new-date'><?php echo $fullNew->date; ?></span>
+            <span class='new-date'><?php echo $item->date; ?></span>
         </footer>
     </article>
 
